@@ -31,7 +31,7 @@ Run run.sh from the pilztaker directory. Progress is printed to stderr.
 Alternatively, call ./pilztaker executable directly. First command
 line argument is the base bath of the Linux kernel tree (must end with /).
 The following command line arguments are the files to be parsed, relative
-to the base path.
+to the base path. Files must contain Unix/Linux line feeds.
 Result is printed to stdout.
 Progress is printed to stderr.
 
